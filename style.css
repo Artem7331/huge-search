@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-body{
+body {
   color: #C2C2C2;
   background-color: #F1F1F1;
   font-family: Arial, sans-serif;
@@ -10,19 +10,19 @@ body{
   margin: 0;
 }
 
-.container{
+.container {
   width: 1140px;
   max-width: 80%;
   margin: 0 auto;
 }
 
-.serch-wrap{
+.serch-wrap {
   height: 100px;
   margin: 50px 0 10px;
   font-size: 0;
 }
 
-.search-input{
+.search-input {
   background-color: transparent;
   display: inline-block;
   width: calc(100% - 100px);
@@ -34,12 +34,12 @@ body{
   color: #ec5a62;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: #C2C2C2;
   letter-spacing: 0.100em;
 }
 
-.search-button{
+.search-button {
   display: inline-block;
   vertical-align: bottom;
   outline: none;
@@ -52,38 +52,38 @@ body{
   background-size: contain;
 }
 
-.search-button:hover{
+.search-button:hover {
   width: 90px;
   height: 90px;
   transition: all .3s ease-in;
 }
 
-.list-wrap{
+.list-wrap {
   font-size: 0;
   width: 32.3333%;
   display: inline-block;
   padding: 0 25px 0 0;
 }
 
-.list-wrap:last-child{
+.list-wrap:last-child {
   padding: 0;
 }
 
-.list-header{
+.list-header {
   font-size: 32px;
   text-transform: uppercase;
 }
 
-.list-body{
+.list-body {
   list-style: none;
   padding-left: 0;
 }
 
-.list-item{
+.list-item {
   margin-bottom: 10px;
 }
 
-.list-item a{
+.list-item a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
@@ -93,18 +93,18 @@ body{
   /*border-radius: 5px;*/
 }
 
-.list-item img{
+.list-item img {
   width: 50px;
   height: 50px;
   display: inline-block;
   font-size: 50px;
 }
 
-#radius-none img{
+#radius-none img {
    border-radius: 50%;
 }
 
-.list-item .list-element-text{
+.list-item .list-element-text {
   color: #ACACAE;
   display: inline-block;
   width: calc(100% - 55px);
@@ -115,18 +115,18 @@ body{
   font-weight: 700;
 }
 
-.list-item a:hover{
+.list-item a:hover {
   background-color: rgba(118,117,128,0.1);
 }
 
-.list-item a:hover .list-element-text{
+.list-item a:hover .list-element-text {
   color: #ec5a62;
 }
 
-.list-item a:active{
+.list-item a:active {
   background-color: rgba(118,117,128,0.15);
 }
 
-.list-item a:active .list-element-text{
+.list-item a:active .list-element-text {
   font-size: 1.05em;
 }
